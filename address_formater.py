@@ -14,10 +14,10 @@ def formated_address(
     postal_code,
     apartment_number=None,
 ):
-    # return the newly formated address
+    # return the newly formatted address
 
     # process
-    if apartment_number != None:
+    if apartment_number is not None:
         address = "{0} \n{6}-{1} {2} \n{3} {4} {5}".format(
             full_name,
             street_number,
